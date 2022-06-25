@@ -1,2 +1,2 @@
 # Baekjoon
-Baekjoon program solving
+Baekjoon problem solving
