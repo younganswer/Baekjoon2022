@@ -10,9 +10,7 @@ Goal: https://solved.ac/class
     - class3 (whole) one exercise in a day
 
 Started at Jun 27, 2022
-
 For 74 days expected
 
 Participants: BuMinKyoo, EUNWOOLEEE, yeonwooz
-
 (https://github.com/participant)
