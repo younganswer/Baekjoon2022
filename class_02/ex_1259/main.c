@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int N;
+int N, len;
+int num[6];
 
 int init();
 void solve();
@@ -13,16 +14,16 @@ int main() {
 
 int init() {
 	scanf("%d", &N);
-	return N;
-}
-
-void solve() {
-	int num[6] = {0, };
-	int len = get_num_len(N);
+	if (!N) return 0;
+	len = get_num_len(N);
 	for (int i=0; i<len; i++) {
 		num[len-1-i] = N % 10;
 		N /= 10;
 	}
+	return 1;
+}
+
+void solve() {
 	for (int i=0; i<len/2; i++) {
 		if (num[i] != num[len-1-i]) {
 			printf("no\n");
