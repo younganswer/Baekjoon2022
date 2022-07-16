@@ -30,7 +30,7 @@ void init() {
 // 8:						N == 3,  depth == 2, start == 8, res == 4
 // 							N == 1,  ...                   , res == 12 
 
-// 공간복잡도: 0, 시간복잡도: O(log2(N)) (N을 계속 2로 나누면서 계산)
+// 공간복잡도: O(0), 시간복잡도: O(log2(N)) (N을 계속 2로 나누면서 계산)
 
 void solve() {
 	int res = N, depth = 0, start = 1;
