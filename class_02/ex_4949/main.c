@@ -35,8 +35,8 @@ int main() {
 } // end of main
 
 int init() {
-	// 개행문자까지 input을 읽어들여서 str에 저장함.
-	gets(str);
+	// 개행문자까지 input을 읽어들여서, 개행문자를 제외한 나머지 문자들을 str에 저장함.
+	fgets(str, MAX+2, stdin);
 	// 종료 조건
 	if (str[0] == '.')
 		return 0;
