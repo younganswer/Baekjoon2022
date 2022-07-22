@@ -100,8 +100,6 @@ Node *init_node(int num) {
 
 Node *get_last() {
 	Node *last = queue->head;
-	if (!last->next)
-		return last;
 	while (last->next)
 		last = last->next;
 	return last;
