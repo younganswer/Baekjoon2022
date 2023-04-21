@@ -16,7 +16,4 @@ For 74 days expected
 Participants: BuMinKyoo, EUNWOOLEEE, yeonwooz  
 (https://github.com/participant)
 
-> TEST
-> TEST
-> TEST
-> TEST
+> *TEST*
