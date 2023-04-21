@@ -16,7 +16,7 @@ For 74 days expected
 Participants: BuMinKyoo, EUNWOOLEEE, yeonwooz  
 (https://github.com/participant)
 
-<div style="color:white;">
+<div style="color: white">
  <Blockquote>
   test
  </Blockquote>
